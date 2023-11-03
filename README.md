@@ -3,7 +3,7 @@ Con la tecnología de [NAudio], [VLC] y [ImageMagick]. NAudio es una librería d
 ___________________________________________________________________________________________________________________________________________________________________________________________
 ## Nota principal
 
-♦ Haz [CLICK] en el [BOTÓN PRINCIPAL] que se muestra como la imagen principal del programa para crear una nota nueva, o mientras mantienes la tecla [CTRL] para abrir la carpeta principal del programa. Si lo haces con el botón derecho se abrirán las ventanas del [ADMINISTRADOR DE NOTAS] y el [BOTÓN CARGAR NOTAS].
+♦ Haz [CLICK] en el [BOTÓN PRINCIPAL] que se muestra como la imagen principal del programa para crear una nota nueva, o mientras mantienes la tecla [CTRL] para abrir la carpeta principal del programa (abrirá una carpeta genérica si no existe, no eliminará ni cargará notas de aquí). Si lo haces con el botón derecho se abrirán las ventanas del [ADMINISTRADOR DE NOTAS] y el [BOTÓN CARGAR NOTAS].
 
 ♦ Mueve la [RUEDA] del ratón sobre el menú [PRINCIPAL] para crear notas más rápido.
 
@@ -14,9 +14,33 @@ ________________________________________________________________________________
 ♦ Para ver este mensaje de ayuda otra vez, haz [CLICK] con ratón sobre el [BOTÓN PRINCIPAL] mientras mantienes pulsada la tecla [SHIFT].
 
 ___________________________________________________________________________________________________________________________________________________________________________________________
+## Nota de cargar notas
+
+♦ Haz [CLICK] en el [BOTÓN CARGAR NOTAS] con el botón izquierdo para cargar uno o varios archivos individualmente, y hazlo con el botón derecho para cargar una carpeta entera.
+
+♦ Si haces [CLICK] en el [BOTÓN CARGAR NOTAS] con el botón izquierdo mientras pulsas la tecla [ALT], se alternará el modo random, que activa comandos especiales para agregar extensiones admitidas al programa y tratará de leer cualquier archivo como una nota de texto que representa el contenido en binario del fichero.
+
+♦ Si cierras esta nota directamente, no se volverá a mostrar hasta volver a ser activada en la nota administradora.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+## Nota administradora
+
+♦ Haz [CLICK] en los botones de arriba y abajo para cambiar el orden en el que se muestran las notas al activarlas.
+
+♦ Haz [CLICK] en el botón derecha para activar las notas seleccionadas y cambiarlas a la lista de notas mostradas.
+
+♦ Haz [CLICK] en el botón izquierda para ocultar las notas seleccionadas y cambiarlas a la lista de notas ocultas.
+
+♦ Haz [CLICK] en el botón rojo pequeño para cerrar las notas seleccionadas. Si no hay notas seleccionadas, se creará una nueva nota de avispa. Si pulsas aquí con la tecla [SHIFT], se reiniciará el programa.
+
+♦ Haz [CLICK] en el fondo de la nota para refrescar el tamaño de las listas. Si lo haces mientras pulsas la tecla [SHIFT], se ocultarán rápidamente todas las notas abiertas. Si lo haces mientras pulsas la tecla [CTRL] puedes alternar que la nota administradora se muestre por encima de las demás ventanas. Si lo haces mientras pulsas la tecla [ALT] se cerrarán todas las notas abiertas.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
 ## Nota de texto
 
 ♦ Haz [CLICK] en la nota mientras pulsas la tecla [CTRL] para guardarla en el lugar donde se encuentra el ejecutable de [ML_Notes.exe] en forma de archivo de texto plano con su fecha de creación como nombre y dentro de una carpeta que, al existir, deshabilita este mensaje que se muestra al iniciar el programa. Los documentos que guardes en esta carpeta se cargarán automáticamente al inicio del programa.
+
+♦ Para mostrar las notas de texto por encima de las demás, mantén pulsadas las teclas [CTRL] y [SHIFT] y mueve la [RUEDA] del ratón encima de la nota.
 
 ♦ Mientras pulsas la tecla [CTRL], [CIERRA] la ventana de una nota de [TEXTO] para borrar su archivo asociado.
 
@@ -32,6 +56,8 @@ ________________________________________________________________________________
 
 ♦ Los comandos [[CTRL] + [SHIFT] + [7]] y [[CTRL] + [SHIFT] + [8]] cifran y descifran el texto completo de la nota de [TEXTO] utilizando una contraseña que introduzcas, hay que tener en cuenta que el contenido cifrado debe permanecer intacto para poder ser descifrado más adelante, es decir, no puedes añadir o eliminar caracteres en esa nota de texto hasta que no esté completamente descifrada; sólo puedes encriptarla otra vez o desencriptarla.
 
+♦ Comando especial en [NUEVAS NOTAS DE TEXTO EN MODO RANDOM] para agregar extensiones admitidas para las distintas notas: Texto:[###-MET-[.txt]-[.md]###], Imagen:[###-MEI-[.png]-[.jpg]###], Audio:[###-MEA-[.mp3]-[.m4a]###], Vídeo:[###-MEV-[.mkv]-[.mp4]###]. Se pueden agregar como mínimo una extensión en un comando, pero el máximo depende del número de corchetes agregados."
+
 ♦ Las extensiones admitidas para ficheros de texto son:
 
 [\".txt\", \".csv\", \".log\", \".xml\", \".json\", \".md\", \".html\", \".css\", \".js\", \".cs\", \".py\", \".java\", \".sql\", \".ini\", \".bat\", \".sh\", \".yml\", \".toml\", \".cfg\", \".conf\", \".rtf\", \".tex\", \".cnf\", \".c\", \".h\", \".cpp\", \".hpp\", \".csproj\", \".sln\", \".rb\", \".php\", \".asp\", \".aspx\", \".pl\", \".cgi\", \".lua\", \".swift\", \".kt\", \".dart\", \".go\", \".r\", \".reg\", \".inf\", \".env\", \".properties\", \".plist\"]
@@ -43,7 +69,7 @@ ________________________________________________________________________________
 
 ♦ Puedes cambiar el tamaño de la ventana de las notas de imagen para estirarlas; para recuperar el tamaño original, mientras pulsas [CTRL], haz [DOBLE CLICK] sobre la imagen.
 
-♦ Para ocultar la nota de imagen, mantén pulsadas las teclas [CTRL] y [SHIFT] y cambia el tamaño de la ventana.
+♦ Para mostrar las notas de imagen por encima de las demás, mantén pulsadas las teclas [CTRL] y [SHIFT] y cambia el tamaño de la ventana.
 
 ♦ Para dibujar sobre las notas de [IMAGEN], utiliza el botón izquierdo (negro) o el derecho del ratón (multicolor).
 
@@ -72,7 +98,7 @@ ________________________________________________________________________________
 
 ♦ Haz [CLICK] sobre el control [STOP] coloreado para retirar su color y el título para reestablecer la nota de audio al estado inicial.
 
-♦ Para ocultar o mostrar las notas de audio, mantén pulsadas las teclas [CTRL] y [SHIFT] y haz [CLICK] sobre ellas.
+♦ Para mostrar las notas de audio por encima de las demás, mantén pulsadas las teclas [CTRL] y [SHIFT] y haz [CLICK] sobre ellas.
 
 ♦ Las extensiones admitidas para ficheros de audio son:
 
@@ -85,17 +111,19 @@ ________________________________________________________________________________
 
 ♦ También se aceptan los controles de la [BARRA ESPACIADORA] para reproducir y pausar y las [TECLAS [Z] Y [X]] para desplazarse por el vídeo atrás y adelante. Para detener la reproducción también se puede pulsar la tecla [S]. Las teclas [A] y [D] bajan y suben el volumen.
 
-♦ Para ocultar o mostrar las notas de vídeo, mantén pulsadas las teclas [CTRL] y [SHIFT] y mueve la ventana de su [MANDO A DISTANCIA] asociado.
+♦ Para mostrar las notas de vídeo por encima de las demás, mantén pulsadas las teclas [CTRL] y [SHIFT] y mueve la ventana de su [MANDO A DISTANCIA] asociado.
 
 ♦ Las extensiones admitidas para ficheros de vídeo son:
 
 [\".mp4\", \".avi\", \".webm\", \".mov\", \".wmv\", \".flv\", \".mkv\", \".ts\", \".ogg\", \".nut\", \".mxf\", \".rv\", \".ivf\", \".mpg\", \".ogv\", \".m4v\", \".3gp\"]
+
 ___________________________________________________________________________________________________________________________________________________________________________________________
 ## Nota de reloj
 
-♦ La nota de reloj muestra la hora actual en formato digital y analógico.
+♦ La nota de reloj muestra la hora actual en formato digital preciso.
 
-♦ Para ocultar o mostrar las notas de reloj, mantén pulsadas las teclas [CTRL] y [SHIFT] y haz [CLICK] sobre ellas.
+♦ Para mostrar las notas de reloj por encima de las demás, mantén pulsadas las teclas [CTRL] y [SHIFT] y haz [CLICK] sobre ellas o mueve la [RUEDA] con la misma combinación de botones.
+
 ___________________________________________________________________________________________________________________________________________________________________________________________
 ## Nota de avispa
 
@@ -114,4 +142,5 @@ ________________________________________________________________________________
 ♦ Para transformar la nota con un efecto de difuminado, utiliza la [RUEDA] del ratón encima de la ventana, y para agregar modificaciones más fuertes, hazlo mientras mantienes pulsadas las teclas [CTRL] o [SHIFT]. Si pulsas la tecla [ALT] o la combinación de [ALT] + [SHIFT] para mezclar la imagen rápidamente.
 
 ♦ Se pueden cargar imágenes anteriores generadas con las notas [COLMENA] arrastrándolas a una ventana [COLMENA] abierta.
+
 ___________________________________________________________________________________________________________________________________________________________________________________________
