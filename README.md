@@ -1,5 +1,7 @@
 Con la tecnología de [NAudio], [VLC] y [ImageMagick]. NAudio es una librería de código abierto de .NET para reproducir audio creada por Mark Heath. VLC es un reproductor multimedia libre y de código abierto multiplataforma y un «framework» que reproduce la mayoría de archivos multimedia, así como DVD, Audio CD, VCD y diversos protocolos de transmisión. ImageMagick es una poderosa biblioteca de manipulación de imágenes que soporta más de 100 formatos de archivo principales (sin incluir sub-formatos).
 
+![ML_Notes](https://github.com/mjfp000/ML_Notes/assets/148080257/292f2d37-a102-40ec-ad7a-bf7850e98ad7)
+
 ___________________________________________________________________________________________________________________________________________________________________________________________
 ## Nota principal
 
